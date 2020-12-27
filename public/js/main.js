@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 
                 messageOne.textContent = data.place
-                messageTwo.textContent= 'Current Temp is: '+ data.foreCast.temp + ' It Feels like '+data.foreCast.feelslike
+                messageTwo.textContent= 'Current Temp is: '+ data.foreCast.temp + ' It Feels like '+data.foreCast.feelslike+ ' and Humidity is '+data.foreCast.humidity
                 console.log(data)
             }
         })
