@@ -18,6 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
                 console.log(data.error)
             } else {
+                
                 messageOne.textContent = data.place
                 messageTwo.textContent= 'Current Temp is: '+ data.foreCast.temp + ' It Feels like '+data.foreCast.feelslike
                 console.log(data)
